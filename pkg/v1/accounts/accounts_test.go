@@ -12,10 +12,11 @@ import (
 func TestAccountSignUp(t *testing.T) {
 
 	log.Println("INVOKE - TestAccountSignUp")
+
 	request := accountapiv1.SignUpRequest{
 		Account: &accountv1.Account{
-			Name:     "andrew",
-			Email:    "andrewatld@gmail.com",
+			Name:     "and",
+			Email:    "and1@gmail.com",
 			Password: "qwerty",
 		},
 	}
@@ -41,7 +42,6 @@ func TestAccountLogin(t *testing.T) {
 
 	log.Println("INVOKE - TestAccountSignUp")
 
-	log.Println("INVOKE - TestAccountSignUp")
 	request := accountapiv1.LoginRequest{
 		Email:    "day1@gmail.com",
 		Password: "qwerty",
