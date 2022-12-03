@@ -43,7 +43,7 @@ func TestAccountLogin(t *testing.T) {
 	log.Println("INVOKE - TestAccountSignUp")
 
 	request := accountapiv1.LoginRequest{
-		Email:    "day1@gmail.com",
+		Email:    "and1@gmail.com",
 		Password: "qwerty",
 	}
 
